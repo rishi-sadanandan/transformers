@@ -1,0 +1,15 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-transformers-staging-234024-authRole",
+      "UnauthRoleArn": "arn:aws:iam::491516906542:role/amplify-transformers-staging-234024-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::491516906542:role/amplify-transformers-staging-234024-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-transformers-staging-234024-deployment",
+      "UnauthRoleName": "amplify-transformers-staging-234024-unauthRole",
+      "StackName": "amplify-transformers-staging-234024",
+      "StackId": "arn:aws:cloudformation:us-east-2:491516906542:stack/amplify-transformers-staging-234024/d31dc090-8fad-11ed-a916-0af79e557d4a",
+      "AmplifyAppId": "d3ud70gz5qnbko"
+    }
+  }
+}

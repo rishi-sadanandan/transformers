@@ -7,7 +7,7 @@
     }
   },
   "api": {
-    "transformersAPI": {
+    "transformersApi": {
       "service": "API Gateway",
       "providerPlugin": "awscloudformation",
       "dependsOn": [

@@ -8,7 +8,7 @@ export type AmplifyDependentResourcesAttributes = {
         }
     },
     "api": {
-        "transformersAPI": {
+        "transformersApi": {
             "RootUrl": "string",
             "ApiName": "string",
             "ApiId": "string"

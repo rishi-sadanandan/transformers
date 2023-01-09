@@ -10,14 +10,13 @@ function App() {
     event.preventDefault();
     const formData = new FormData(event.target);
     const data = formData.get("name");
-    const append = data.split(" ").join("+");
-    console.log(append);
+    console.log(data);
     const myInit = {
-      body: { data },
+      body: data,
       response: true,
     };
     // send data to amplify api and get response
-    API.post(apiName, `${path}/${append}`, myInit)
+    API.post(apiName, path, myInit)
       .then((response) => {
         console.log(response);
       })

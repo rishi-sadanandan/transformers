@@ -15,11 +15,11 @@
       "function": {
         "transformersFunction": {
           "deploymentBucketName": "amplify-transformers-staging-234024-deployment",
-          "s3Key": "amplify-builds/transformersFunction-49495a3331734d527854-build.zip"
+          "s3Key": "amplify-builds/transformersFunction-6b6b625a654f6975312f-build.zip"
         }
       },
       "api": {
-        "transformersAPI": {}
+        "transformersApi": {}
       }
     }
   }

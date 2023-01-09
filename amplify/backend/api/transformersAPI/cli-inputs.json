@@ -1,8 +1,8 @@
 {
   "version": 1,
   "paths": {
-    "/gpt2/{text}": {
-      "name": "/gpt2/{text}",
+    "/gpt2": {
+      "name": "/gpt2",
       "lambdaFunction": "transformersFunction",
       "permissions": {
         "setting": "open"

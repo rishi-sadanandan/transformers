@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "paths": {
+    "/gpt2/{text}": {
+      "name": "/gpt2/{text}",
+      "lambdaFunction": "transformersFunction",
+      "permissions": {
+        "setting": "open"
+      }
+    }
+  }
+}

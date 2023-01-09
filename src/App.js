@@ -1,13 +1,29 @@
 import logo from "./logo.svg";
 import "./App.css";
+import { Amplify, API } from "aws-amplify";
 
 function App() {
+  const apiName = "transformersAPI";
+  const path = "/gpt2";
+
   const handleSubmit = async (event) => {
     event.preventDefault();
     const formData = new FormData(event.target);
     const data = formData.get("name");
-    console.log(data);
+    const append = data.split(" ").join("+");
+    console.log(append);
+    const myInit = {
+      body: { data },
+      response: true,
+    };
     // send data to amplify api and get response
+    API.post(apiName, `${path}/${append}`, myInit)
+      .then((response) => {
+        console.log(response);
+      })
+      .catch((error) => {
+        console.log(error.response);
+      });
   };
 
   return (

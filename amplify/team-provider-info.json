@@ -10,6 +10,17 @@
       "StackName": "amplify-transformers-staging-234024",
       "StackId": "arn:aws:cloudformation:us-east-2:491516906542:stack/amplify-transformers-staging-234024/d31dc090-8fad-11ed-a916-0af79e557d4a",
       "AmplifyAppId": "d3ud70gz5qnbko"
+    },
+    "categories": {
+      "function": {
+        "transformersFunction": {
+          "deploymentBucketName": "amplify-transformers-staging-234024-deployment",
+          "s3Key": "amplify-builds/transformersFunction-49495a3331734d527854-build.zip"
+        }
+      },
+      "api": {
+        "transformersAPI": {}
+      }
     }
   }
 }

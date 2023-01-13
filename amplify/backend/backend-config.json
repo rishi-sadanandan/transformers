@@ -1,4 +1,20 @@
 {
+  "api": {
+    "transformersApi": {
+      "dependsOn": [
+        {
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "function",
+          "resourceName": "transformersFunction"
+        }
+      ],
+      "providerPlugin": "awscloudformation",
+      "service": "API Gateway"
+    }
+  },
   "function": {
     "transformersFunction": {
       "build": true,
@@ -6,18 +22,20 @@
       "service": "Lambda"
     }
   },
-  "api": {
-    "transformersApi": {
-      "service": "API Gateway",
-      "providerPlugin": "awscloudformation",
-      "dependsOn": [
+  "parameters": {
+    "AMPLIFY_function_transformersFunction_deploymentBucketName": {
+      "usedBy": [
         {
           "category": "function",
-          "resourceName": "transformersFunction",
-          "attributes": [
-            "Name",
-            "Arn"
-          ]
+          "resourceName": "transformersFunction"
+        }
+      ]
+    },
+    "AMPLIFY_function_transformersFunction_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "transformersFunction"
         }
       ]
     }

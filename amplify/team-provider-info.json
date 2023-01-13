@@ -15,7 +15,7 @@
       "function": {
         "transformersFunction": {
           "deploymentBucketName": "amplify-transformers-staging-234024-deployment",
-          "s3Key": "amplify-builds/transformersFunction-6b6b625a654f6975312f-build.zip"
+          "s3Key": "amplify-builds/transformersFunction-5730366943457a6a6243-build.zip"
         }
       },
       "api": {
